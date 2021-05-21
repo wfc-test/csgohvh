@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Onetap-V4/main.html" />
+    <link rel="next" href="Callbacks.html" />
     
     
     <link rel="prev" href="main.html" />
@@ -122,6 +122,32 @@
             
                     
                     全局变量Globals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="Callbacks.html">
+            
+                <a href="Callbacks.html">
+            
+                    
+                    回调Callbacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="Types.html">
+            
+                <a href="Types.html">
+            
+                    
+                    类型Types
             
                 </a>
             
@@ -207,27 +233,26 @@
                                 
                                 <h1 id="&#x5168;&#x5C40;&#x53D8;&#x91CF;globals">&#x5168;&#x5C40;&#x53D8;&#x91CF;Globals</h1>
 <ul>
-<li><p><a href="#Global">Global</a></p>
-</li>
-<li><p><a href="#Globals">Globals</a></p>
-</li>
-<li>Sound</li>
-<li>Cheat</li>
-<li>Local</li>
-<li>World</li>
-<li>Input</li>
-<li>Render</li>
-<li>UI</li>
-<li>Convar</li>
-<li>Event</li>
-<li>Entity</li>
-<li>Trace</li>
-<li>UserCMD</li>
-<li>AntiAim</li>
-<li>Exploit</li>
-<li>Ragebot</li>
-<li>Material</li>
+<li><a href="#Global">Global</a></li>
+<li><a href="#Globals">Globals</a></li>
+<li><a href="#Sound">Sound</a></li>
+<li><a href="#Cheat">Cheat</a></li>
+<li><a href="#Local">Local</a></li>
+<li><a href="#World">World</a></li>
+<li><a href="#Input">Input</a></li>
+<li><a href="#Render">Render</a></li>
+<li><a href="#UI">UI</a></li>
+<li><a href="#Convar">Convar</a></li>
+<li><a href="#Event">Event</a></li>
+<li><a href="#Entity">Entity</a></li>
+<li><a href="#Trace">Trace</a></li>
+<li><a href="#UserCMD">UserCMD</a></li>
+<li><a href="#AntiAim">AntiAim</a></li>
+<li><a href="#Exploit">Exploit</a></li>
+<li><a href="#Ragebot">Ragebot</a></li>
+<li><a href="#Material">Material</a></li>
 </ul>
+<hr>
 <h2 id="global"><a id="Global">Global</a></h2>
 <blockquote>
 <p>&#x4E0D;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x6B64;&#x6A21;&#x5757;,Global&#x4EC5;&#x662F;&#x5355;&#x7EAF;&#x5730;&#x4ECE;&#x5176;&#x4ED6;&#x6A21;&#x5757;&#x94FE;&#x63A5;&#x5230;&#x73B0;&#x6709;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x56E0;&#x6B64;&#x5B8C;&#x5168;&#x4E0D;&#x9700;&#x8981;&#x3002;</p>
@@ -236,6 +261,127 @@
 </code></pre>
 <p>&#x6B64;&#x4E3A;Cheat.Print&#x7684;&#x522B;&#x540D;,&#x4F7F;&#x7528;Cheat.Print&#x66FF;&#x4EE3;</p>
 <h2 id="globals"><a id="Globals">Globals</a></h2>
+<h2 id="cheat"><a id="Cheat">Cheat</a></h2>
+<h3 id="cheatprinttext-string">Cheat.<strong>Print</strong>(text: <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a>)</h3>
+<p>&#x6253;&#x5370;&#x6587;&#x672C;&#x5230;CSGO&#x63A7;&#x5236;&#x53F0;</p>
+<p>&#x6362;&#x884C;&#x7B26;<code>\n</code>&#x9700;&#x624B;&#x52A8;&#x6DFB;&#x52A0;</p>
+<h3 id="cheatprintchattext-string">Cheat.<strong>PrintChat</strong>(text: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a>)</h3>
+<p>&#x6253;&#x5370;&#x6587;&#x672C;&#x5230;&#x804A;&#x5929;&#x6846;&#xFF08;&#x53EA;&#x6709;&#x672C;&#x4EBA;&#x80FD;&#x770B;&#x5230;&#xFF09;</p>
+<p>&#x53EF;&#x4F7F;&#x7528;&#x989C;&#x8272;&#x4EE3;&#x7801;&#x6539;&#x53D8;&#x6587;&#x672C;&#x989C;&#x8272;</p>
+<table>
+<thead>
+<tr>
+<th>Byte</th>
+<th>Color</th>
+<th></th>
+<th>Byte</th>
+<th>Color</th>
+<th></th>
+<th>Byte</th>
+<th>Color</th>
+<th></th>
+<th>Byte</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\x01</td>
+<td>White</td>
+<td></td>
+<td>\x05</td>
+<td>Lighter green</td>
+<td></td>
+<td>\x09</td>
+<td>Gold</td>
+<td></td>
+<td>\x0D</td>
+<td>Dark purple</td>
+</tr>
+<tr>
+<td>\x02</td>
+<td>Dark red</td>
+<td></td>
+<td>\x06</td>
+<td>Light green</td>
+<td></td>
+<td>\x0A</td>
+<td>Gray</td>
+<td></td>
+<td>\x0E</td>
+<td>Light purple</td>
+</tr>
+<tr>
+<td>\x03</td>
+<td>Purple</td>
+<td></td>
+<td>\x07</td>
+<td>Red</td>
+<td></td>
+<td>\x0B</td>
+<td>Aqua</td>
+<td></td>
+<td>\x0F</td>
+<td>Light red</td>
+</tr>
+<tr>
+<td>\x04</td>
+<td>Green</td>
+<td></td>
+<td>\x08</td>
+<td>Gray</td>
+<td></td>
+<td>\x0C</td>
+<td>Blue</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F7F;&#x7528;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-javascript">Cheat.PrintChat(<span class="hljs-string">&quot; \x06&#x4EE5; \x08&quot;</span> + Cheat.GetUsername() + <span class="hljs-string">&quot; \x06&#x767B;&#x5F55; \x01Cheak:\x08Successful\x01\n&quot;</span>);
+</code></pre>
+<pre><code class="lang-javascript">Cheat.PrintChat(<span class="hljs-string">&quot; \06welcome to \x01Future\x06Sense\x01.uno \x01\n&quot;</span>)
+</code></pre>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x793A;&#x4F8B;&#x4E2D;<strong>&#x5728;&#x7B2C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x524D;&#x90FD;&#x52A0;&#x4E86;&#x7A7A;&#x683C;&#x3002;</strong></p>
+<p>&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x7B2C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E0D;&#x80FD;&#x662F;&#x6539;&#x53D8;&#x989C;&#x8272;&#x7684;&#x5B57;&#x8282;&#xFF0C;&#x5728;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5F00;&#x59CB;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;&#x53EF;&#x4EE5;&#x4FEE;&#x590D;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;</p>
+<h3 id="cheatprintcolorcolor-rgba-text-string">Cheat.<strong>PrintColor</strong>(color: <a href="https://leodev.xyz/csgo/onetap/v3/docs/types.html#RGBA" target="_blank"><code>RGBA</code></a>, text: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a>)</h3>
+<p>&#x4EE5;<strong>&#x56DB;&#x8272;&#x6A21;&#x5F0F;</strong>&#x6253;&#x5370;&#x6587;&#x672C;&#x5230;CSGO&#x63A7;&#x5236;&#x53F0;</p>
+<p>&#x4F7F;&#x7528;&#x793A;&#x4F8B;</p>
+<pre><code>Cheat.PrintColor( [ 255, 0, 0, 255 ], &quot;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x7EA2;&#x8272;&#x6F14;&#x793A;&#x6570;&#x636E;&quot; );
+</code></pre><h3 id="cheatgetusername-string">Cheat.<strong>GetUsername</strong>(): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a></h3>
+<p>&#x83B7;&#x53D6;steam&#x7528;&#x6237;&#x540D;</p>
+<p>&#x4F7F;&#x7528;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> username = Cheat.GetUsername();
+Cheat.PrintColor([<span class="hljs-number">255</span>,<span class="hljs-number">215</span>,<span class="hljs-number">0</span>, <span class="hljs-number">255</span>], <span class="hljs-string">&quot; &#x200B;&quot;</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+Cheat.PrintColor([<span class="hljs-number">255</span>,<span class="hljs-number">215</span>,<span class="hljs-number">0</span>, <span class="hljs-number">255</span>], <span class="hljs-string">&quot;          &#x2022;&gt; Welcome To MI&quot;</span>+<span class="hljs-string">&quot;XO-&quot;</span>+<span class="hljs-string">&quot;YAW &lt;&#x2022;&quot;</span> + <span class="hljs-string">&quot;\n&quot;</span>);
+Cheat.PrintColor([<span class="hljs-number">255</span>,<span class="hljs-number">215</span>,<span class="hljs-number">0</span>, <span class="hljs-number">255</span>], <span class="hljs-string">&quot;          &#x2022;&gt; Discord: Mix&quot;</span>+<span class="hljs-string">&quot;ologi&quot;</span>+<span class="hljs-string">&quot;st#6&quot;</span>+<span class="hljs-string">&quot;105 &#x200B;&lt;&#x2022;&quot;</span> + <span class="hljs-string">&quot;\n&quot;</span>);
+Cheat.PrintColor([<span class="hljs-number">255</span>,<span class="hljs-number">215</span>,<span class="hljs-number">0</span>, <span class="hljs-number">255</span>], <span class="hljs-string">&quot;          &#x2022;&gt; Log&quot;</span>+<span class="hljs-string">&quot;ged in as: &quot;</span> + username + <span class="hljs-string">&quot; &lt;&#x2022; \n&quot;</span>);
+Cheat.PrintColor([<span class="hljs-number">255</span>,<span class="hljs-number">215</span>,<span class="hljs-number">0</span>, <span class="hljs-number">255</span>], <span class="hljs-string">&quot;          &#x2022;&gt; Last upd&quot;</span>+<span class="hljs-string">&quot;ate: 4/&quot;</span>+<span class="hljs-string">&quot;11/&quot;</span>+<span class="hljs-string">&quot;20&quot;</span>+<span class="hljs-string">&quot;21 &lt;&#x2022; \n&quot;</span>);
+</code></pre>
+<h3 id="cheatregistercallbackcallback-string-func-string">Cheat.<strong>RegisterCallback</strong>(callback: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a>, func: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a>)</h3>
+<p><strong>&#x5C06;func&#x56DE;&#x8C03;&#x6CE8;&#x518C;&#x7ED9;&#x51FD;&#x6570;callback,&#x4F7F;callback&#x5728;&#x8C03;&#x7528;&#x540E;&#x6267;&#x884C;func&#x5904;&#x7406;&#x51FD;&#x6570;</strong></p>
+<p>CSGO&#x5B98;&#x65B9;&#x51FD;&#x6570;<a href="https://wiki.alliedmods.net/Counter-Strike:_Global_Offensive_Events" target="_blank">&#x67E5;&#x770B;</a></p>
+<p>&#x5177;&#x4F53;&#x7528;&#x6CD5;&#x5728;<a href="Onetap-V3/Callbacks.md">Callbacks</a>&#x6587;&#x6863;&#x67E5;&#x770B;&#x66F4;&#x591A;&#x4FE1;&#x606F;</p>
+<ul>
+<li>callback: &#x6B32;&#x76D1;&#x63A7;&#x7684;&#x51FD;&#x6570;&#x540D;</li>
+<li>func :&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x540D;&#x5B57;&#x7B26;&#x4E32;</li>
+</ul>
+<p>&#x4F7F;&#x7528;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//&#x51FD;&#x6570;&#x540D;&#x5FC5;&#x987B;&#x5168;&#x5C40;&#x58F0;&#x660E;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">crazyInverter</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-comment">// this gets called every tick</span>
+    <span class="hljs-keyword">if</span>(!UI.IsHotkeyActive(<span class="hljs-string">&quot;Script items&quot;</span>,<span class="hljs-string">&quot;Crazy Inverter&quot;</span>)) <span class="hljs-keyword">return</span>;
+    <span class="hljs-keyword">if</span>(crazy_Inverter++ === crazy_Inverter_speed){
+        UI.ToggleHotkey(<span class="hljs-string">&quot;Anti-Aim&quot;</span>, <span class="hljs-string">&quot;Fake angles&quot;</span>, <span class="hljs-string">&quot;Inverter&quot;</span>);
+        crazy_Inverter = <span class="hljs-number">0</span>;
+    }
+}
+......
+<span class="hljs-comment">//&#x56DE;&#x8C03;</span>
+Global.RegisterCallback(<span class="hljs-string">&quot;CreateMove&quot;</span>, <span class="hljs-string">&quot;crazyInverter&quot;</span>);
+</code></pre>
+<h3 id="cheatexecutecommandcommand-string">Cheat.<strong>ExecuteCommand</strong>(command: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank"><code>string</code></a>)</h3>
 
                                 
                                 </section>
@@ -268,7 +414,7 @@
                 </a>
                 
                 
-                <a href="../Onetap-V4/main.html" class="navigation navigation-next " aria-label="Next page: Onetap V4">
+                <a href="Callbacks.html" class="navigation navigation-next " aria-label="Next page: 回调Callbacks">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -279,7 +425,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"全局变量Globals","level":"1.2.1","depth":2,"next":{"title":"Onetap V4","level":"1.3","depth":1,"path":"Onetap-V4/main.md","ref":"Onetap-V4/main.md","articles":[]},"previous":{"title":"Onetap V3","level":"1.2","depth":1,"path":"Onetap-V3/main.md","ref":"Onetap-V3/main.md","articles":[{"title":"全局变量Globals","level":"1.2.1","depth":2,"path":"Onetap-V3/globals.md","ref":"Onetap-V3/globals.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Onetap-V3/globals.md","mtime":"2021-05-21T01:31:13.736Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-05-21T01:31:22.563Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"全局变量Globals","level":"1.2.1","depth":2,"next":{"title":"回调Callbacks","level":"1.2.2","depth":2,"path":"Onetap-V3/Callbacks.md","ref":"Onetap-V3/Callbacks.md","articles":[]},"previous":{"title":"Onetap V3","level":"1.2","depth":1,"path":"Onetap-V3/main.md","ref":"Onetap-V3/main.md","articles":[{"title":"全局变量Globals","level":"1.2.1","depth":2,"path":"Onetap-V3/globals.md","ref":"Onetap-V3/globals.md","articles":[]},{"title":"回调Callbacks","level":"1.2.2","depth":2,"path":"Onetap-V3/Callbacks.md","ref":"Onetap-V3/Callbacks.md","articles":[]},{"title":"类型Types","level":"1.2.3","depth":2,"path":"Onetap-V3/Types.md","ref":"Onetap-V3/Types.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Onetap-V3/globals.md","mtime":"2021-05-21T02:55:49.037Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-05-21T02:55:59.415Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
